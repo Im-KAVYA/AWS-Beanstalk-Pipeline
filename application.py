@@ -78,7 +78,7 @@ welcome = """
             <h2>Contact</h2>
             <ul>
                 <li>Email: kvmail696@gmail.com</li>
-                <li>Phone: (+91) 7092772011</li>
+                <li>Phone: (+91) 7092772012</li>
                 <li>Location: Chennai, Tamil Nadu</li>
             </ul>
        
