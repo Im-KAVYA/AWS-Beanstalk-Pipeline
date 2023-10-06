@@ -20,90 +20,119 @@ logger.addHandler(handler)
 
 welcome = """
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jenish Revaldo C - Data Analyst Resume</title>
+    <title>Bio-Data</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
             padding: 20px;
         }
 
         h1 {
-            font-size: 28px;
+            margin: 0;
+        }
+
+        .content {
+            width: 80%;
+            margin: 0 auto;
         }
 
         h2 {
-            font-size: 24px;
-            margin-top: 10px;
+            border-bottom: 2px solid #3498db;
         }
 
-        h3 {
-            font-size: 20px;
-            margin-top: 10px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
         }
 
-        p {
-            margin: 5px 0;
+        table, th, td {
+            border: 1px solid #ccc;
         }
 
-        .contact {
-            margin-top: 20px;
+        th, td {
+            padding: 8px;
+            text-align: left;
         }
 
-        .education, .projects, .languages, .interests {
-            margin-top: 30px;
+        ul {
+            list-style: none;
         }
+
     </style>
 </head>
 <body>
-    <h1>Jenish Revaldo C   -  Data Analyst</h1>
-  
-    <p>Driven and adaptable Data Analyst with a passion for continuous learning and leadership. Skilled in mathematics, statistics, and programming, I excel at solving complex problems and extracting valuable insights from data. Committed to staying updated on industry trends to deliver impactful data-driven solutions.</p>
-    
-    <div class="contact">
-        <h2>Contact Information</h2>
-        <p>Email: jenishrev0603@gmail.com</p>
-        <p>Phone: 7358941365</p>
-        <p>Location: Kanyakumari, India</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/jenish-revaldo-c-004670245">linkedin.com/in/jenish-revaldo-c-004670245</a></p>
-        <p>GitHub: <a href="https://github.com/JenishRevaldo">github.com/JenishRevaldo</a></p>
-    </div>
+    <header>
+        <h1>Kavya M</h1>
+    </header>
+    <div class="content">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: kvmail696@gmail.com</li>
+                <li>Phone: (+91) 7092772011</li>
+                <li>Location: Chennai, Tamil Nadu</li>
+            </ul>
+       
+            <h2>Experience</h2>
+            <table>
+                <tr>
+                    <th>Position</th>
+                    <th>Company</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Data Science Intern</td>
+                    <td>The Sparks Foundation</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Data Analyst Intern</td>
+                    <td>Ozibook</td>
+                    <td>2022</td>
+                </tr>
+            </table>
 
-    <div class="education">
-        <h2>Education</h2>
-        <h3>B.Sc. Mathematics</h3>
-        <p>Loyola College</p>
-        <p>06/2019 - 04/2022, Chennai</p>
-        <p>Graduate with a first-class degree.</p>
+            <h2>Projects</h2>
+            <ol>
+                <li>PCOS Prediction using ML Algorithms</li>
+                <li>Book Recommendation System</li>
+		<li>Driver Vigilance Detection</li>
+            </ol>
 
-        <h3>M.Sc. Data Science</h3>
-        <p>Loyola College</p>
-        <p>06/2022 - Present, Chennai</p>
-        <p>Pursuing degree in data Science with a commendable CGPA.</p>
-    </div>
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>College/University</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>MSc. Data Science</td>
+                    <td>Loyola college</td>
+                    <td>2022-24</td>
+                </tr>
+                <tr>
+                    <td>MSc. Mathematics</td>
+                    <td>Pondicherry University</td>
+                    <td>2020-22</td>
+                </tr>
+            </table>
 
-    <div class="projects">
-        <h2>Projects</h2>
-       <p>IPL Analysis through Power BI</p>
-        <p>Supervised-Unsupervised integration for Breast Cancer diagnosis</p>
-    </div>
+            <h2>Achievements</h2>
+            <ul>
+                <li>Publication (in print) in Taylor and Francis book series</li>
+                <li>Won first prize in project presentation at ANVAYA</li>
+            </ul>
 
-    <div class="languages">
-        <h2>Languages</h2>
-        <p>Tamil - Native or Bilingual Proficiency</p>
-        <p>English - Full Professional Proficiency</p>
-    </div>
-
-    <div class="interests">
-        <h2>Interests</h2>
-        <p>Data Analysis</p>
-        <p>Predictive Modelling</p>
-        <p>Natural Language Processing</p>
-        <p>Data Visualization</p>
     </div>
 </body>
 </html>
